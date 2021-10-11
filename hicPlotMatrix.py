@@ -346,7 +346,7 @@ def plotHeatmap(ma, chrBinBoundaries, fig, position, args, cmap, xlabel=None,
             axHeat2.set_xticks(ticks_x)
             axHeat2.set_xticklabels(X_chromosomes, rotation=args.rotationX, fontsize=args.fontsize)
             axHeat2.set_yticks(ticks_y)
-            axHeat2.set_yticklabels(Y_chromosomes, rotation=args.rotationX, fontsize=args.fontsize)
+            axHeat2.set_yticklabels(Y_chromosomes, rotation=args.rotationY, fontsize=args.fontsize)
         
         else:
             for index, (k, v) in enumerate(pChromsomeStartEndDict.items()):
